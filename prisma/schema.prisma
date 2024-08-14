@@ -1,0 +1,65 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DB_URL")
+}
+
+model Transaction {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  amount    Float
+  from      String
+  to        String
+  status    String
+
+  @@map("Transaction")
+}
+
+model UserWallet {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  balance   Float    @default(0.000000)
+  User      User[]
+
+  @@map("UserWallet")
+}
+
+model UserProfile {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  username  String   @unique @default(uuid())
+  email     String   @unique @default(uuid())
+  image     String   @default("https://i.imgur.com/2v0Zz1Y.png")
+  role      String   @default("User")
+  User      User[]
+
+  @@map("UserProfile")
+}
+
+model User {
+  id            String      @id @map("_id")
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  address       String
+  profile       UserProfile @relation(fields: [userProfileId], references: [id])
+  userProfileId String      @db.ObjectId
+  wallet        UserWallet  @relation(fields: [userWalletId], references: [id])
+  userWalletId  String      @db.ObjectId
+}
+
+model LitProtocolMessage {
+  id              String              @id @default(uuid()) @map("_id")
+  encryptedString String
+  metadata        LitProtocolMetadata
+}
+
+type LitProtocolMetadata {
+  accessControlConditions Json[]
+  encryptedSymmetricKey   String
+}
