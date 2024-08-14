@@ -110,6 +110,12 @@ importers:
       '@relevanceai/chain':
         specifier: ^0.1.13
         version: 0.1.13(encoding@0.1.13)
+      '@syncfusion/ej2-react-base':
+        specifier: ^26.2.9
+        version: 26.2.9
+      '@syncfusion/ej2-react-charts':
+        specifier: ^26.2.9
+        version: 26.2.9
       '@t3-oss/env-nextjs':
         specifier: ^0.4.0
         version: 0.4.1(typescript@5.0.4)(zod@3.23.8)
@@ -4204,6 +4210,61 @@ packages:
 
   '@swc/helpers@0.5.5':
     resolution: {integrity: sha512-KGYxvIOXcceOAbEk4bi/dVLEK9z8sZ0uBB3Il5b1rhfClSpcX0yfRO0KmTkqR2cnQDymwLB+25ZyMzICg/cm/A==}
+
+  '@syncfusion/ej2-base@26.2.5':
+    resolution: {integrity: sha512-GfB77Jb//FLXdHC8mqnwcl3F3RqH+XPOQNOhNVxfkcpT50iMzfaXqH4F+rwAa0PkVN+8JcWDH0U3/29nUtG4KA==}
+    hasBin: true
+
+  '@syncfusion/ej2-buttons@26.2.9':
+    resolution: {integrity: sha512-K2L2MRMrSCr9vpOCMeW03Wl+7QtEXIsLdziDU2W+T0fXQEgi7TroG1FZU6bAVyNkkpH92OGLFpBnehDz3Vcm7A==}
+
+  '@syncfusion/ej2-calendars@26.2.8':
+    resolution: {integrity: sha512-lZvZHkJqKyKwVsshdJm0g6I7fa9MGzG91mejJlOgX3Ug7mi0+Hs7QNKNG7w16SmYKDBAGFgun6Rmt0Q/3Ek4XA==}
+
+  '@syncfusion/ej2-charts@26.2.9':
+    resolution: {integrity: sha512-oBsvFpnFAy1X9zZc1ODRziM3Yek8M8FF7k12kIP+H9PS8oo8fbI0kKx6nlIw04HWDSuuhSxDit9lA9XGW/y6NA==}
+
+  '@syncfusion/ej2-compression@26.2.5':
+    resolution: {integrity: sha512-aHWtC1QFyUor+VyvYGU4x9sW+349VfQtotcEvsOdiRtTtgZlZBVrbWtRNXKfPJydhEYlaV2FSnouaCeIO1jHxQ==}
+
+  '@syncfusion/ej2-data@26.2.9':
+    resolution: {integrity: sha512-3SokXtCuizY9Q7+RT6pKThUpmI2YbyFIvK7aKRiquuvC5EKqqrK4Vtr+aefYDLSFRoTRuXTs/0ZcQAn3BZPiRg==}
+
+  '@syncfusion/ej2-excel-export@26.2.5':
+    resolution: {integrity: sha512-E3+hlpJhTGbLm7jworoS3XjcJtVSO+Gi3a0pZBvo/W7VIQMLCmrRzFRZFtTq0+WmQIqTwjYUty3n97DhL7IM/A==}
+
+  '@syncfusion/ej2-file-utils@26.2.5':
+    resolution: {integrity: sha512-ELgo63dXVpeg8mhoRSGruLagxkaXpMvVa3QoMscxyyeUHWw+ZeHz564FZ0nRvNHv0K10ZlV5UxopiAsm+w6v4w==}
+
+  '@syncfusion/ej2-icons@26.2.5':
+    resolution: {integrity: sha512-UmsDTEoi3uFyoLTmDujAfVn3Eq4vzoaIvZru8WqLoZlxuAg+tF1zHcsbQBWGopjzr9LOWjqthy3gNAZJqJBtKA==}
+
+  '@syncfusion/ej2-inputs@26.2.5':
+    resolution: {integrity: sha512-rqrwXbRA1CBdaKDzFWlpSy62yBt+PLHBFanUOWHObDGSFcXnXKjD7l3Uamqa1cBZnb2XJfC3vxqwcw8Bunu7mg==}
+
+  '@syncfusion/ej2-lists@26.2.5':
+    resolution: {integrity: sha512-KLr14XyyT4UbWTBJiksv7+1oy4iVMeCF/U48KNS6sJww/FNL/CJtk2W1kmjRD8PrngCYwmZ01pW7r2xYMjCwaA==}
+
+  '@syncfusion/ej2-navigations@26.2.8':
+    resolution: {integrity: sha512-oSVrpnofUCQFMCV25K1DEPrzzi7wOA2J4qXCkyyezDtHR3YgMg8gaFnDrKyVLDWmdVsq1vH0EQScoNyShll/9Q==}
+
+  '@syncfusion/ej2-pdf-export@26.2.5':
+    resolution: {integrity: sha512-U2JJtY+salV+znPRoJ1NqAUvDUAUDIHiiJEVWtzoPOZ7aOi2ybKx6PA0eBV1X5byE6tooppKlCWGVuax5EHPrg==}
+
+  '@syncfusion/ej2-popups@26.2.8':
+    resolution: {integrity: sha512-1tpv52gRPaKY0e7Tcnld9hhnUMuZ/idFtKEPPAJArb3MfVGpxXt9g08sxRADKqEzXBXZQt+KNWvpj/ZCVkA6XQ==}
+
+  '@syncfusion/ej2-react-base@26.2.9':
+    resolution: {integrity: sha512-Ej0kbDqK4xMTPR6p1+iWlSMz5rkvcOleOlaXcNeMAr2CFBFjXmX6y7zv/Sy2Ne+SztIFx7Ct9mpU5ht2s26EuQ==}
+
+  '@syncfusion/ej2-react-charts@26.2.9':
+    resolution: {integrity: sha512-spt3mdUvl8iYEoN+Xiyy9+cEXHgcawPpOPfiIUI7SrL7uDos22t7KkAYcGnzcpvoFZ0ICt+ZKWqdIXMg8e3njw==}
+
+  '@syncfusion/ej2-splitbuttons@26.2.5':
+    resolution: {integrity: sha512-N3mQ0ln9py5cidyj74qamzi9i0xo/xMHB/+cfr8bj67pPnZl+62W9Wqw/sO0KAJetwcUjjHQ/78m1tlEFg38rg==}
+
+  '@syncfusion/ej2-svg-base@26.2.8':
+    resolution: {integrity: sha512-VP/Xys6t1Xi8z/BjLtrNbo/NRBCkUFchChYRP+c9RxSJ+wR/L5IGNU90kPgHtZVHojfZJ0RZiBvLoMQE06wpoQ==}
 
   '@szmarczak/http-timer@4.0.6':
     resolution: {integrity: sha512-4BAffykYOgO+5nzBWYwE3W90sBgLJoUPRWWcL8wlyiM8IB8ipJz3UMJ9KXQd1RKQXpKp8Tutn80HZtWsu2u76w==}
@@ -14230,7 +14291,7 @@ snapshots:
       '@types/node': 20.5.1
       chalk: 4.1.2
       cosmiconfig: 8.3.6(typescript@5.5.4)
-      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6(typescript@5.0.4))(ts-node@10.9.2(@types/node@22.2.0)(typescript@5.0.4))(typescript@5.5.4)
+      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6(typescript@5.0.4))(ts-node@10.9.2(@types/node@20.5.1)(typescript@5.5.4))(typescript@5.5.4)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -19023,6 +19084,100 @@ snapshots:
       '@swc/counter': 0.1.3
       tslib: 2.6.3
 
+  '@syncfusion/ej2-base@26.2.5':
+    dependencies:
+      '@syncfusion/ej2-icons': 26.2.5
+
+  '@syncfusion/ej2-buttons@26.2.9':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+
+  '@syncfusion/ej2-calendars@26.2.8':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+      '@syncfusion/ej2-buttons': 26.2.9
+      '@syncfusion/ej2-inputs': 26.2.5
+      '@syncfusion/ej2-lists': 26.2.5
+      '@syncfusion/ej2-popups': 26.2.8
+
+  '@syncfusion/ej2-charts@26.2.9':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+      '@syncfusion/ej2-calendars': 26.2.8
+      '@syncfusion/ej2-data': 26.2.9
+      '@syncfusion/ej2-excel-export': 26.2.5
+      '@syncfusion/ej2-navigations': 26.2.8
+      '@syncfusion/ej2-pdf-export': 26.2.5
+      '@syncfusion/ej2-svg-base': 26.2.8
+
+  '@syncfusion/ej2-compression@26.2.5':
+    dependencies:
+      '@syncfusion/ej2-file-utils': 26.2.5
+
+  '@syncfusion/ej2-data@26.2.9':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+
+  '@syncfusion/ej2-excel-export@26.2.5':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+      '@syncfusion/ej2-compression': 26.2.5
+
+  '@syncfusion/ej2-file-utils@26.2.5': {}
+
+  '@syncfusion/ej2-icons@26.2.5': {}
+
+  '@syncfusion/ej2-inputs@26.2.5':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+      '@syncfusion/ej2-buttons': 26.2.9
+      '@syncfusion/ej2-popups': 26.2.8
+      '@syncfusion/ej2-splitbuttons': 26.2.5
+
+  '@syncfusion/ej2-lists@26.2.5':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+      '@syncfusion/ej2-buttons': 26.2.9
+      '@syncfusion/ej2-data': 26.2.9
+      '@syncfusion/ej2-popups': 26.2.8
+
+  '@syncfusion/ej2-navigations@26.2.8':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+      '@syncfusion/ej2-buttons': 26.2.9
+      '@syncfusion/ej2-data': 26.2.9
+      '@syncfusion/ej2-inputs': 26.2.5
+      '@syncfusion/ej2-lists': 26.2.5
+      '@syncfusion/ej2-popups': 26.2.8
+
+  '@syncfusion/ej2-pdf-export@26.2.5':
+    dependencies:
+      '@syncfusion/ej2-compression': 26.2.5
+
+  '@syncfusion/ej2-popups@26.2.8':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+      '@syncfusion/ej2-buttons': 26.2.9
+
+  '@syncfusion/ej2-react-base@26.2.9':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+
+  '@syncfusion/ej2-react-charts@26.2.9':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+      '@syncfusion/ej2-charts': 26.2.9
+      '@syncfusion/ej2-react-base': 26.2.9
+
+  '@syncfusion/ej2-splitbuttons@26.2.5':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+      '@syncfusion/ej2-popups': 26.2.8
+
+  '@syncfusion/ej2-svg-base@26.2.8':
+    dependencies:
+      '@syncfusion/ej2-base': 26.2.5
+
   '@szmarczak/http-timer@4.0.6':
     dependencies:
       defer-to-connect: 2.0.1
@@ -21737,7 +21892,7 @@ snapshots:
       object-assign: 4.1.1
       vary: 1.1.2
 
-  cosmiconfig-typescript-loader@4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6(typescript@5.0.4))(ts-node@10.9.2(@types/node@22.2.0)(typescript@5.0.4))(typescript@5.5.4):
+  cosmiconfig-typescript-loader@4.4.0(@types/node@20.5.1)(cosmiconfig@8.3.6(typescript@5.0.4))(ts-node@10.9.2(@types/node@20.5.1)(typescript@5.5.4))(typescript@5.5.4):
     dependencies:
       '@types/node': 20.5.1
       cosmiconfig: 8.3.6(typescript@5.5.4)

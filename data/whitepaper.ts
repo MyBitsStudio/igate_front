@@ -87,4 +87,120 @@ export const whiteSections: WhiteSectionCategoryUpdated[] = [
     author: "Quantum (Founder)",
     updated: "2024-08-13",
   },
+  {
+    id: "section3",
+    title: "<g>Business Services</g>",
+    icon: "<FiFileText />",
+    sections: [
+      {
+        id: "section3-1",
+        title: "Introduction",
+        icon: "<FiFileText />",
+        content: [
+          "iGate offers a wide range of business services to help companies leverage the power of blockchain technology. From payment processing to supply chain management, iGate provides a suite of tools and solutions to streamline operations, reduce costs, and drive growth.",
+          "Our team of experts has years of experience in blockchain development, finance, and business operations. We work closely with our clients to understand their needs, develop customized solutions, and provide ongoing support to ensure their success.",
+          "Whether you are a small startup or a large enterprise, iGate has the tools and expertise to help you succeed in the digital economy. The services we offer include payment processing, tokenization, smart contracts, and more.",
+        ],
+      },
+    ],
+    author: "Quantum (Founder)",
+    updated: "2024-08-12",
+  },
+  {
+    id: "section4",
+    title: "<g>Gaming Services</g>",
+    icon: "<FiFileText />",
+    sections: [
+      {
+        id: "section4-1",
+        title: "Introduction",
+        icon: "<FiFileText />",
+        content: [
+            "iGate is revolutionizing the gaming industry with its innovative blockchain-based gaming services. By leveraging the power of blockchain technology, iGate is creating a new paradigm for gaming that is secure, transparent, and decentralized.",
+            "Our gaming services are designed to provide players with a seamless and immersive gaming experience, while also giving them the opportunity to earn rewards and participate in the iGate ecosystem. Whether you are a casual gamer or a hardcore enthusiast, iGate has something for everyone.",
+            "Our team of experts is constantly working to develop new games, features, and functionality to enhance the gaming experience for our users. We are committed to creating a platform that is fun, engaging, and rewarding for all players.",
+        ],
+      },
+    ],
+    author: "Quantum (Founder)",
+    updated: "2024-08-12",
+  },
+  {
+    id: "section5",
+    title: "<g>Structure</g>",
+    icon: "<FiFileText />",
+    sections: [
+      {
+        id: "section5-1",
+        title: "Introduction",
+        icon: "<FiFileText />",
+        content: [
+            "iGate is composed of multiple layers, each serving a specific purpose in the ecosystem. These layers work together to create a seamless and efficient platform that empowers users to transact, interact, and engage with the iGate network.",
+            "The core layer of iGate is the blockchain itself, which serves as the foundation for the entire ecosystem. The blockchain is responsible for processing transactions, securing the network, and maintaining the integrity of the ledger.",
+            "On top of the blockchain is the application layer, which includes the user interface, smart contracts, and other features that enable users to interact with the network. This layer is designed to be user-friendly, intuitive, and accessible to users of all skill levels.",
+            "The governance layer is responsible for managing the network, making decisions, and enforcing rules and policies. This layer is designed to be decentralized, transparent, and community-driven, with decisions made by the users themselves.",
+            "The final layer of iGate is the services layer, which includes a wide range of tools and solutions to help users transact, interact, and engage with the network. This layer is designed to be flexible, scalable, and customizable, with services tailored to the needs of individual users.",
+        ],
+      },
+    ],
+    author: "Quantum (Founder)",
+    updated: "2024-08-12",
+  },
+  {
+    id: "section6",
+    title: "<g>Charity</g>",
+    icon: "<FiFileText />",
+    sections: [
+      {
+        id: "section6-1",
+        title: "Introduction",
+        icon: "<FiFileText />",
+        content: [
+            "iGate is committed to making a positive impact on the world through its charitable initiatives. We believe that everyone has the power to change the world, and iGate is here to help you do just that.",
+            "Our charity program is designed to empower individuals to make a difference in the lives of others, both locally and globally. By donating to our charity fund, you can help support a wide range of causes, including education, healthcare, and more.",
+            "We believe that by working together, we can create a better future for all. Join us on this journey to make the world a better place, one donation at a time.",
+        ],
+      },
+      {
+        id: "section6-2",
+        title: "iGate Charity Programs",
+        icon: "<FiFileText />",
+        content: [
+            "iGate is committed to increasing its impact on the world through its charity program. We are constantly seeking new ways to support causes that are important to our community and make a positive difference in the world.",
+
+        ],
+      },
+      {
+        id: "section6-3",
+        title: "iGate Charity",
+        icon: "<FiFileText />",
+        content: [
+          "Along with multiple programs to enhance the lives of people, iGate will structure it's own non-profit charity, focused on helping the less fortunate and those in need. The charity will be funded by a percentage of the utility fees on the iGate network, as well as donations from the community.",
+          "Although the charity is aimed to help multiple causes, the main focus will be on helping children in need, providing them with education, healthcare, and other essential services. Our goal is to build a better future, and give those without a future a better chance at life.",
+        ],
+      },
+    ],
+    author: "Quantum (Founder)",
+    updated: "2024-08-12",
+  },
+  {
+    id: "section7",
+    title: "<g>Finance</g>",
+    icon: "<FiFileText />",
+    sections: [
+      {
+        id: "section7-1",
+        title: "Introduction",
+        icon: "<FiFileText />",
+        content: [
+            "iGate is commited to transparency and financial responsibility. We believe that everyone has the right to know how their funds are being used, and we are dedicated to providing detailed reports on our financial activities.",
+            "Our financial reports are designed to be clear, concise, and easy to understand. We provide information on our income, expenses, assets, and liabilities, as well as details on how funds are allocated and spent.",
+            "We are committed to maintaining the highest standards of financial integrity and accountability. Our financial reports are audited by independent third parties to ensure accuracy and compliance with industry standards.",
+            "All information related to our financial activities is available to the public, so you can see for yourself how your funds are being used to make a positive impact on the world."
+        ],
+      },
+    ],
+    author: "Quantum (Founder)",
+    updated: "2024-08-12",
+  },
 ]

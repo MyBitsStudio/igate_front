@@ -96,11 +96,11 @@ interface CategoryItem {
 
 export const AppItems: CategoryItem[] = [
   {
-    name: "iGate Info",
-    href: "/apps/ai/igate",
-    description: "Get information about iGate",
+    name: "AI Agents",
+    href: "/apps/ai/agent",
+    description: "Use our AI Agents",
     img: "/integrations/siwe.svg",
-    category: AppCategories[0],
+    category: AppCategories[2],
   },
 ]
 
