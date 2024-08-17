@@ -4,6 +4,12 @@ import {useScript} from "@/lib/utils/UseScript";
 import {Card, CardContent} from "@/components/ui/card";
 import Script from "next/script";
 
+declare global {
+    interface Window {
+        crowdswapWidget: any;
+    }
+}
+
 export default function CrowdSwapPage() {
 
    // useScript("https://widget.crowdswap.org/loadAssets.js");
@@ -43,6 +49,7 @@ export default function CrowdSwapPage() {
             <section className="bg-gray-900 text-white">
                 <Card>
                     <CardContent>
+                        <>
                         <crowdswap-swap-widget
                             id="crowdswapWidget"
                             config='{
@@ -53,6 +60,7 @@ export default function CrowdSwapPage() {
                                 "theme":"dark",
                                 "affiliateId":"082213"
                             }' />
+                        </>
                     </CardContent>
                 </Card>
             </section>

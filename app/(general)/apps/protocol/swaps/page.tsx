@@ -9,15 +9,25 @@ export default function SwapPage() {
                 <div className="lg:h-400 mx-auto max-w-screen-xl px-4 py-24 lg:flex lg:items-center">
                     <div className="mx-auto max-w-3xl text-center">
                         <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-                            Open Ledger
+                            Swap Marketplace
                         </h1>
 
                         <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-                            At iGate, we believe in transparency. That is why we have made our ledger public. You can
-                            view all transactions that have taken place on our platform.
+                            Swap tokens from multiple tokens at a low rates. We host multiple swap providers in one
+                            place, giving the best rates possible.
                         </p>
                     </div>
                 </div>
+            </section>
+
+            <section className="bg-gray-900 text-white">
+                <div
+                    className="mx-6 grid grid-cols-1 gap-4 transition-[grid-template-columns] lg:grid-cols-[120px_1fr] lg:gap-8 lg:[&:has(>*:first-child:hover)]:grid-cols-[160px_1fr]"
+                >
+                    <div className="h-32 rounded-lg bg-gray-800"></div>
+                    <div className="h-32 rounded-lg bg-gray-800"></div>
+                </div>
+
             </section>
         </div>
     )
