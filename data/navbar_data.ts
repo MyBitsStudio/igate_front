@@ -96,6 +96,13 @@ interface CategoryItem {
 
 export const AppItems: CategoryItem[] = [
   {
+    name: "Swaps",
+    href: "/apps/protocol/swaps",
+    description: "Use our Swaps tools",
+    img: "/integrations/siwe.svg",
+    category: AppCategories[1],
+  },
+  {
     name: "AI Agents",
     href: "/apps/ai/agent",
     description: "Use our AI Agents",
