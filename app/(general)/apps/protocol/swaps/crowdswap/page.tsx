@@ -28,6 +28,7 @@ export default function CrowdSwapPage() {
         }
     }
 
+
     return (
         <div className="relative mt-1 px-0 ">
             <Script src="https://widget.crowdswap.org/loadAssets.js" />
@@ -50,6 +51,7 @@ export default function CrowdSwapPage() {
                 <Card>
                     <CardContent>
                         <>
+                            {/* @ts-ignore */}
                         <crowdswap-swap-widget
                             id="crowdswapWidget"
                             config='{

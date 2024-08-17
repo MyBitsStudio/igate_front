@@ -103,6 +103,13 @@ export const AppItems: CategoryItem[] = [
     category: AppCategories[1],
   },
   {
+    name: "Ramps",
+    href: "/apps/protocol/ramp",
+    description: "Use our Ramp tools",
+    img: "/integrations/siwe.svg",
+    category: AppCategories[1],
+  },
+  {
     name: "AI Agents",
     href: "/apps/ai/agent",
     description: "Use our AI Agents",
